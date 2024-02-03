@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package basicos;
+
+/**
+ * 
+ */
+public class guerrero extends humano {
+	
+	private String arma;
+	private String armadura;
+	
+	public guerrero(String arma, String armadura) {
+		super();
+		this.arma = arma;
+		this.armadura = armadura;
+	}
+	
+	
+	
+	
+
+	
+
+}

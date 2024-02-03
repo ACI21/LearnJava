@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package basicos;
+
+/**
+ * 
+ */
+public class humano {
+	String nombre;
+	int edad;
+	String extremidades;
+	
+	
+}

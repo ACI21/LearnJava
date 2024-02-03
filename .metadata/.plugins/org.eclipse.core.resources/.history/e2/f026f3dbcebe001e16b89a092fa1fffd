@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package basicos;
+
+/**
+ * 
+ */
+enum diasSemana {
+	Lunes, Martes
+}
+
+public class main {
+
+	/**
+	 * @param args
+	 */
+	protected static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String dia = diasSemana.Lunes.toString();
+		
+		humano humanito = new humano();
+		humanito.setNombre("juanito");
+		
+	    humanito = new humano();
+
+		System.out.println(humanito.toString());
+		
+		guerrero g = new guerrero(armas.espada);
+		
+		System.out.println(g.getNombre());
+
+	}
+
+}

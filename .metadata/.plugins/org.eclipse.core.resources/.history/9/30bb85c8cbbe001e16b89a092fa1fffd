@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package basicos;
+
+/**
+ * 
+ */
+public class guerrero extends humano {
+	
+	private String arma;
+	private String armadura;
+	
+	
+
+	
+
+}

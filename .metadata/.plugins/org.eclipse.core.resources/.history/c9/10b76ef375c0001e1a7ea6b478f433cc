@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+
+/**
+ * 
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CountingSort nombreVariable = new CountingSort();
+		int[] arr = {7,4,9,7,3,2,6,9,0,5};
+		nombreVariable.countingSort(arr);
+		System.out.println(arr);
+	}
+
+}

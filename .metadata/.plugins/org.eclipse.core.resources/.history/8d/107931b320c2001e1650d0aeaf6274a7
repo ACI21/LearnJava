@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.sge.project1.repository;
+
+/**
+ * 
+ */
+public class EmpleadoRepository extends JpaRepository<Empleado, Long> {
+
+}
