@@ -12,7 +12,7 @@ enum diasSemana {
 	Lunes, Martes
 }
 
-public class main {
+public class Main {
 
 	/**
 	 * @param args
