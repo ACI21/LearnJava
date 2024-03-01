@@ -25,6 +25,10 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Timer"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="polimorfismo.Aniversario"/>
+    <fullyQualifiedTypeName name="polimorfismo.SanValentin"/>
+    <fullyQualifiedTypeName name="polimorfismo.Monovolumen"/>
+    <fullyQualifiedTypeName name="tarea5_1.ClaseAbstracta"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
