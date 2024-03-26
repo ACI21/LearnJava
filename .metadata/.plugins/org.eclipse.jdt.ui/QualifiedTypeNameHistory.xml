@@ -31,4 +31,6 @@
     <fullyQualifiedTypeName name="polimorfismo.Monovolumen"/>
     <fullyQualifiedTypeName name="tarea5_1.ClaseAbstracta"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLEditorKit.Parser"/>
 </qualifiedTypeNameHistroy>
