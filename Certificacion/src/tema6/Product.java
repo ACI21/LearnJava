@@ -2,6 +2,7 @@ package tema6;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Objects;
 /**
  * {@code Product} class represents porperties and behaviors of
  * product objects in the Product Management System.
@@ -14,7 +15,7 @@ import java.math.RoundingMode;
  * @author a.carrillo.ibanez
  * @version 1.0
  */
-public class Product {
+public abstract class Product {
 	private final int id;
 	private final String name;
 	private final BigDecimal price;
@@ -86,9 +87,6 @@ public class Product {
 		return rating;
 	}
 	
-	/**
-	 * ToString of class Product
-	 */
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", dto=" + dto + ", rating=" + rating
@@ -96,6 +94,27 @@ public class Product {
 	}
 	
 	
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if(obj instanceof Product) {
+			Product other = (Product) obj;
+			return id == other.id && Objects.equals(name, other.name);
+		}
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;	
+		return false;
+	}
+
 	/**
 	 * Calculates discount on a product price and
 	 * {@link dto discount rate}
@@ -106,8 +125,6 @@ public class Product {
 		return price.multiply(getDto()).setScale(2, RoundingMode.HALF_UP);
 	}
 	
-	public Product applyRating(Rating newRating) {
-		return new Product(this.id, this.name, this.price, newRating);
-	}
+	public abstract Product applyRating(Rating newRating);
 
 }
